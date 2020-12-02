@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgabout"
+    android:orientation="vertical"
+    tools:context=".About">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/geo_back"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/ic_baseline_arrow_back_24" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="150dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_above="@+id/textgeo"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/geometry" />
+
+            <TextView
+                android:id="@+id/textgeo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="10dp"
+                android:text="@string/geometri"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:ignore="RtlCompat" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/listcat">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="50dp">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginBottom="4dp"
+                        card_view:cardCornerRadius="20dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+                            android:background="@drawable/button"
+                            android:padding="5dp">
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginTop="16dp"
+                                android:layout_marginRight="16dp"
+                                android:layout_marginBottom="8dp"
+                                android:text="Baris geometri"
+                                android:textAlignment="textStart"
+                                android:textColor="#305F72"
+                                android:textSize="18sp" />
+
+                            <Button
+                                android:id="@+id/materi_geo1_go"
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:layout_marginLeft="260dp"
+                                android:layout_marginTop="16dp"
+                                android:background="@drawable/ic_baseline_arrow_right_alt_24" />
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginBottom="4dp"
+                        card_view:cardCornerRadius="20dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+                            android:background="@drawable/button"
+                            android:padding="5dp">
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginTop="16dp"
+                                android:layout_marginRight="16dp"
+                                android:layout_marginBottom="8dp"
+                                android:text="Deret Geometri"
+                                android:textAlignment="textStart"
+                                android:textColor="#305F72"
+                                android:textSize="18sp" />
+
+                            <Button
+                                android:id="@+id/materi_geo2_go"
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:layout_marginLeft="260dp"
+                                android:layout_marginTop="16dp"
+                                android:background="@drawable/ic_baseline_arrow_right_alt_24" />
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginBottom="4dp"
+                        card_view:cardCornerRadius="20dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+                            android:background="@drawable/button"
+                            android:padding="5dp">
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginTop="16dp"
+                                android:layout_marginRight="16dp"
+                                android:layout_marginBottom="8dp"
+                                android:text="Baris Geometri tak hingga"
+                                android:textAlignment="textStart"
+                                android:textColor="#305F72"
+                                android:textSize="18sp" />
+
+                            <Button
+                                android:id="@+id/materi_geo3_go"
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:layout_marginLeft="260dp"
+                                android:layout_marginTop="16dp"
+                                android:background="@drawable/ic_baseline_arrow_right_alt_24" />
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginBottom="4dp"
+                        card_view:cardCornerRadius="20dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+                            android:background="@drawable/button"
+                            android:padding="5dp">
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginTop="16dp"
+                                android:layout_marginRight="16dp"
+                                android:layout_marginBottom="8dp"
+                                android:text="Aplikasi Baris dan Deret\nGeometri"
+                                android:textAlignment="textStart"
+                                android:textColor="#305F72"
+                                android:textSize="18sp" />
+
+                            <Button
+                                android:id="@+id/materi_geo4_go"
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:layout_marginLeft="260dp"
+                                android:layout_marginTop="16dp"
+                                android:background="@drawable/ic_baseline_arrow_right_alt_24" />
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>
+
+
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

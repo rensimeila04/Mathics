@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.rensimyl.www.mathics">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logomathics"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logomathics_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".Matgeo4"></activity>
+        <activity android:name=".Matgeo3" />
+        <activity android:name=".Matgeo2" />
+        <activity android:name=".Matgeo1" />
+        <activity android:name=".Matarit3" />
+        <activity android:name=".Matarit2" />
+        <activity android:name=".Matarit1" />
+        <activity android:name=".Matmatriks5" />
+        <activity android:name=".Matmatriks4" />
+        <activity android:name=".Matmatriks3" />
+        <activity android:name=".Matmatriks2" />
+        <activity android:name=".Matmatriks1" />
+        <activity android:name=".Mateksponen2" />
+        <activity android:name=".Mateksponen1" />
+        <activity android:name=".Geometri" />
+        <activity android:name=".Aritmatika" />
+        <activity android:name=".matriks" />
+        <activity android:name=".Eksponen" />
+        <activity android:name=".MateriList" />
+        <activity android:name=".About" />
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

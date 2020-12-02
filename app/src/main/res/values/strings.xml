@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Mathics</string>
+    <string name="Name">Mathics</string>
+    <string name="developer_name">Nama </string>
+    <string name="detail">Detail</string>
+    <string name="Card_view">Card View</string>
+    <string name="desc_salsa">Seorang siswi XI RPL 3 yang dulunya pingin masuk TKJ padahal milinya RPL di SMK Telkom Malang. Lahir dan besar di malang, hobinya berharap tapi lanjut part 2 ngga cukup</string>
+    <string name="name_salsa">Salsabilla Maurettasya Auradina</string>
+    <string name="name_rensi">Rensi Meila Yulvinata</string>
+    <string name="desc_rensi">Seorang siswi kelas XI Rekayasa Perangkat Lunak di SMK Telkom Malang yang berasal dari Kediri. Lahir di Kediri tanggal 23 Mei 2004 memiliki hobi menunggu yang tidak pasti.</string>
+    <string name="alfian">Alfian Nurditariyono</string>
+    <string name="desc_alfian">Seorang siswa XI RPL 3 di SMK Telkom Malang. Lahir di Probolinggo, hobinya cuman musik sama desain grafis. terimakasih</string>
+    <string name="materi1">Eksponen</string>
+    <string name="aritmatika">Baris Deret\nAritmatika</string>
+    <string name="matriks">Matriks</string>
+    <string name="geometri">Baris Deret\nGeometri</string>
+    <string name="ismateri1">Bilangan berpangkat , yaitu merupakan bilangan penyederhana dari sebuah bilangan yang di kalikan.\n\n A^n = a x a x a x … x n (sebanyak n)\n\n Keterangan:\n a^n = bilangan berpangkat\n a = bilangan pokok\n n = pangkat\n\n Sifat Bilangan Berpangkat :\n 1. Perkalian bilangan berpangkat\n Dalam perkalian bilangan berpangkat , maka berlaku sifat seperti di bawah ini :\n a^m x a^n = a^m+n\n Contoh : 2^4 x 2^5 = 2^9\n\n 2. Pembagian Bilangan Berpangkat\n Dalam pembagian bilangan berpangkat berlaku rumus :\n a^m : a^n = a^m-n dimana a ≠ 0\n Contoh : \n 3^4 : 3^2 = 3^2\n\n3. Bilangan Pangkat 0\n
+Bilangan yang berpangkat 0 maka hasilnya 1\n
+a^0 = 1\n
+Contoh :\n
+7^0 = 1\n\n
+4. Sifat Pemangkatan Bilangan Berpangkat\n
+Apabila ada suatu bilangan berpagkat yang di pangkatkan lagi ,maka berlaku rumus :\n
+(a^m)^n = a^m x n\n
+Contoh :\n
+(4^2)^3 = 4^2x 3 = 4^6\n\n
+5. Sifat Perpangkatan Suatu Perkalian atau Pembagian\n
+a. Apabila ada dua bilangan bulat yang dikalikan dan di pangkatkan maka berlaku rumus :\n
+ ( a x b )^ n = a^n  x b^n\n
+b. Apabila ada dua bilangan bulat yang di bagi dan di pangkatkan maka berlaku rumus :\n
+( a : b )^ n = a^n  : b^n\n\n
+Video : ruang guru
+</string>
+    <string name="matriks1">Kesamaan dan Transpose matriks\n\n
+        Kesamaan ≠ Persamaan\n Kesamaan berordo = sama dan elemen yang seletak bernilai sama.\n Jika a b c d = e f g h maka a = e, b=f, c=g, d=h\n Transpos matriks (A` atau A^T) adalah putaran matriks dari ordo m x n menjadi n x m.\n</string>
+    <string name="matriks2a">Operasi hitung matriks\n\n Penjumlahan dan pengurangan dapat dilakukan pada matriks berordo sama.\n Penjumlahan</string>
+    <string name="matriks2b">Bersifat komutatif \n A + B = B + A\n Perkalian matriks dapat dilakukan pada matriks berordo m x n dengan ordo n x p dengan hasil m x p \nPerkalian matriks tidak bersifat komutatif namun distributif.\n\n</string>
+    <string name="matriks3a">Determinan matriks |A| \nadalah hasil penjumlahan elemen matriks dengan kofaktor nya.\n Determinan hanya berlaku bagi matriks persegi dan ditulis dalam tanda mutlak.\n\n Ordo 2 x 2\n</string>
+    <string name="matriks3b">A| = ad – bc\n\n Ordo 3 x 3\n</string>
+    <string name="aritmatika1">A. Barisan Arimatika\n\n Baris aritmatika mempunyai selisih dua suku yang berurutan selalu tetap.\n Contoh : 1, 2, 3, 4, … beda 1 tiap suku\n Rumus baris arimetika :\n Beda [b] \n b = Un+ U(n-1)\n Suku ke-n [Un]\n Un = a + (n-1)b atau Un =Sn- S(n-1)\n Keteranngan\n= a = U1 = Suku pertama\n n = banyak bilangan\n b = beda suku\n S = jumlah sukun\n\n</string>
+    <string name="aritmatika2">B. Deret Arimatika\n\n Deret Arimatika adalah penjumlahan suku suku dari suatu barisan aritmatika.\n Contoh 2+4+6+8…. (masing masing ditambah 2)\n Rumus deret aritmatika \n Jumlah suku pertama [Sn]\n Sn = 12 n (2a + (n-1)b)\n Sn = 12 n (a+Un)\n Keterangan : \na = suku pertama\n Sn = jumlah n suku pertama\n b = beda\n n = banyaknya suku\n Un = Rumus baris aritmetika\n\n</string>
+    <string name="aritmatika3">Bunga Tunggal yaitu metoda pemberian imbalan jasa bunga simpanan yang dihitung berdasarkan modal pokok pinjaman atau modal awal simpanan saja. \n Rumus bunga tunggal:\n Mn = Mo (1 + in) \n Keterangan : Mn = Nilai modal simpanan periode ke-n \n Mo = Nilai modal awal simpanan \n i = Persentase bunga simpanan \n n = Periode pembungaan \n\n</string>
+    <string name="geo1">Baris geometri\n\n Baris geometri mempunyai perbandingan / rasio dua suku yang berurutan selalu tetap.\n Contoh : 2,4,8,16, … rasio 2\n Rumus baris geometri :\n Rasio [r] = r = UnU(n-1) dimana r ≠1≠ 0 ≠ -1\n Suku ke-n [Un] \n Un = a.r^(n-1) atau Un = Sn- S(n-1)\n Ket = \na = U1 = Suku pertama\n n = banyak bilangan\n r = rasio suku\n S = jumlah suku\n\n</string>
+    <string name="geo2"><![CDATA[Deret Geometri\n\n Deret geometri adalah penjumlahan suku – suku dari barisan geometri secara berurutan.\n Rumus deret Geometri :\n Jumlah suku pertama [Sn]\n Sn = a. (r^n-1)/r - 1 dimana r>1 \n Sn = a. (1-r^n)/1-r dimana r<1 \n Keterangan a = suku pertama\n Sn = jumlah n suku pertama\n r = rasio\n n = banyaknya suku\n\n]]></string>
+    <string name="geo3"><![CDATA[Baris Geometri Tak Hingga(BGTH)\n\n BGTH adalah baris geometri yang sukunya dapat mencapai tak hingga.\n BGTH dibagi menjadi :\n 1. BGTH divergen\n Nilai sukunya membesar, tidak memiliki limit jumlah, rasio r < -1 atau r > 1 (Buka pecahan)\n 2. BGTH konvergen\n Nilai sukunya mengecil, memiliki limit jumlah, rasio -1 < r <1 dan r ≠ 0 (pecahan)\n BGTH yang dapat dihitung adalah BGTH konvergen, karena memiliki suku yang nilainya mendekati 0 (nol).\n Limit jumlah [S∞ ] BGTH konvergen dapat dihitung :\n S∞ = a/1-r\n Keterangan : \n S∞ = Jumlah BGTH Konvergen\n a = suku pertama\n r = rasio\n\n]]></string>
+    <string name="geo4">Aplikasi Baris dan Deret Geometri\n\n Bunga Majemuk yaitu metoda pemberian imbalan jasa bunga simpanan yang dihitung berdasarkan besar modal atau simpanan pada periode bunga berjalan.\n Rumus bunga majemuk:\n Mn = Mo (1 + i)^n \n Keterangan : Mn = Nilai modal simpanan periode ke-n \n Mo = Nilai modal awal simpanan \n i = Persentase bunga simpanan \n n = Periode pembungaan\n\n</string>
+</resources>
